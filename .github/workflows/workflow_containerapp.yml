@@ -61,3 +61,7 @@ jobs:
         containerAppEnvironment: microhack-containerenvironment-bitbasti
         containerAppName: microhack-containerapp-bitbasti
         targetPort: 8080
+
+        environmentVariables: |
+          API_URL= https://microhack-aiapp-bitbasti.whitepebble-3b5a6bdd.westeurope.azurecontainerapps.io
+          
