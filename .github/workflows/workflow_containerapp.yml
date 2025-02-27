@@ -25,6 +25,7 @@ jobs:
       
     - name: Build with dotnet
       run: dotnet build --no-restore
+      
     - name: Build and Push Image
       run: |
         az acr login --name microhackregistrybitbasti --username ${{ secrets.ACR_USERNAME }} --password ${{ secrets.ACR_PASSWORD }} &&
