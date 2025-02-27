@@ -63,7 +63,7 @@ jobs:
         targetPort: 8080
 
         environmentVariables: |
-          API_URL= <https://microhack-aiapp-bitbasti.whitepebble-3b5a6bdd.westeurope.azurecontainerapps.io>
+          API_URL=<https://microhack-aiapp-bitbasti.whitepebble-3b5a6bdd.westeurope.azurecontainerapps.io>
     
 
          
